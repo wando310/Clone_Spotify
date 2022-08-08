@@ -1,0 +1,84 @@
+.inicio{
+    height: 52.3rem;
+    display: flex;
+    flex-direction: column;
+    flex: 6;
+    overflow-y: scroll;
+    background-image: linear-gradient(#8b5e29,rgb(29, 28, 28) 35%);
+    border-bottom: solid .1rem rgb(49, 49, 49);
+}
+.inicio::-webkit-scrollbar-thumb{
+    background: rgb(105, 105, 105);
+    border-radius: 1rem;
+}
+.inicio::-webkit-scrollbar{
+    width: .8rem;
+}
+.header{
+    background: #744d22;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    width: 85rem;
+    position: fixed;
+    top: 0px;
+}
+.header svg{
+    background: rgba(65, 14, 14, 0.815);
+    padding: .3rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.menu_right{
+    display: flex;
+    align-items: center;
+}
+.menu_right a{
+    background: rgba(10, 2, 10, 0.651);
+    color: white;
+    font-weight: bold;
+    font-size: .7rem;
+    border-radius: 3rem;
+    letter-spacing: .1rem;
+    margin-right: 1rem;
+    padding: .5rem 2rem;
+    border: solid 1px #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.login{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.63);
+    border-radius: 30px;
+    padding: .18rem;
+}
+.login svg{
+    margin: 0px;
+    background: transparent;
+    color: white;
+}
+.login svg:first-child{
+    background: rgb(102, 101, 102);
+}
+.login svg:last-child{
+    transform: rotate(90deg);
+    font-size: 1rem;
+}
+.login input{
+    width: 8rem;
+    font-size: 1rem;
+    font-weight: 400;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: end;
+    color: white;
+}
+.slide{
+    width: 85rem;
+    height:18rem;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+}

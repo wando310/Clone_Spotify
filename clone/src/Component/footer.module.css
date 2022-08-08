@@ -1,0 +1,48 @@
+.footer{
+    width: 100%;
+    height: 99px;
+    background: #1c1a1d;
+    position: absolute;
+    top: calc(100vh - 100px);
+    color: white;
+    border-top: solid 1px rgba(80, 79, 79, 0.473);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer svg{
+    margin: .6rem;
+    font-size: 1rem;
+}
+.next_previwer{
+    color: rgb(105, 105, 105);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.pause{
+    font-size: 1.2rem;
+    padding: .4rem;
+    background-color: rgb(105, 105, 105);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.time div{
+    width: 40rem;
+    height: 4px;
+    border-radius: 3px;
+    background: rgb(102, 102, 102);
+    margin: 10px;
+    margin-top: 0px;
+}
+.time span{
+    font-size: .8rem;
+}

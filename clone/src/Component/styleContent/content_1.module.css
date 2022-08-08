@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@100;500&display=swap');
+
+.content1{
+    width: inherit;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.content1 h2{
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 1rem;
+}
+.conteiner_1_1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.conteiner_1_2{
+    width: 20.6rem;
+    height: 5.2rem;
+    background: rgb(70, 69, 69);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    margin: .3rem;
+    transition: all .5s;
+}
+.conteiner_1_2:hover{
+    background: rgb(53, 52, 52);
+    cursor: pointer;
+}
+.conteiner_1_2:hover svg{
+    opacity: 1;
+}
+.conteiner_1_2 img{
+    width: 7rem;
+    height: inherit;
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+}
+.conteiner_1_3{
+    width: inherit;
+    height:inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+.conteiner_1_3 span{
+    color: white;
+    font-weight: bold;
+    margin: .2rem;
+}
+.conteiner_1_2 svg{
+    width: 3rem;
+    height: 1rem;
+    padding: .8rem;
+    margin: 1rem;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background: rgb(27, 177, 39);
+    opacity: 0;
+    transition: all .3s;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}

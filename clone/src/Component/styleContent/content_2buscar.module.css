@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@100;500&display=swap');
+
+.content1{
+    width: inherit;
+    font-family: sans-serif;
+    margin-top: 3rem;
+}
+.title_principal{
+    width: inherit;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.title_principal span{
+    font-size: .8rem;
+    color: rgb(255, 255, 255);
+    margin: 2rem;
+    margin-top: 3.5rem;
+    text-transform: uppercase;
+}
+.title_principal h3{
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+}
+.conteiner_1_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conteiner_1_2{
+    width: 10.7rem;
+    height: 16rem;
+    background: rgb(26, 25, 25);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: .7rem;
+    padding: 1rem;
+    padding-top: .7rem;
+    transition: all .5s;
+}
+.conteiner_1_2:hover{
+    background: rgb(53, 52, 52);
+    cursor: pointer;
+}
+.conteiner_1_2 img{
+    width: inherit;
+    height: inherit;
+    margin-top: -1.5rem;
+    border-radius: .2rem;
+}
+.conteiner_1_3{
+    width: inherit;
+    height:inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+.conteiner_1_3 span{
+    margin: .2rem;
+}
+.title{
+    font-weight: bold;
+    color: white;
+}
+.previw{
+    font-weight: 400;
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(175, 175, 175);
+}
+.conteiner_1_2 svg{
+    font-size: 5rem;
+    width: 2rem;
+    height: 10rem;
+    border-radius: 50%;
+    padding-top: 1rem;
+    color: rgba(255, 255, 255, 0.89);
+    background: rgba(0, 0, 0, 0.295);
+    position: relative;
+    left: -9.3rem;
+    top: 1rem;    
+}
+.close{
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.89);
+    background: rgba(0, 0, 0, 0.24);
+    position: relative;
+    left: 4.5rem;
+    top: -.1rem;    
+    font-family: cursive;
+}

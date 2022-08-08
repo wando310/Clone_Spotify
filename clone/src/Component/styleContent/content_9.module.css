@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@100;500&display=swap');
+
+.content1{
+    width: inherit;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.content1 h3{
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 0rem;
+}
+.conteiner_1_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conteiner_1_2{
+    width: 10rem;
+    height: 16rem;
+    background: rgb(43, 42, 42);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.1rem;
+    padding: 1rem;
+    transition: all .5s;
+}
+.conteiner_1_2:hover{
+    background: rgb(53, 52, 52);
+    cursor: pointer;
+}
+.conteiner_1_2 img{
+    width: inherit;
+    height: inherit;
+}
+.conteiner_1_3{
+    width: inherit;
+    height:inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+.conteiner_1_3 span{
+    color: white;
+    margin: .2rem;
+}
+.title{
+    font-weight: bold;
+}
+.previw{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner_1_2 svg{
+    width: 3rem;
+    height: 1rem;
+    padding: .8rem;
+    margin: 1rem;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background: rgb(27, 177, 39);
+    display: none;
+    transition: all 1s;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.452);
+}
